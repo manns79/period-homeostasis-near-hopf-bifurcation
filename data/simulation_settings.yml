@@ -1,0 +1,50 @@
+model:
+  initial_condition: [0.01, 0.01, 0.006]
+
+period_computation:
+  solver: LSODA
+  t_start: 0.0
+  t_end: 80.0
+  transient_time: 50.0
+  rtol: 0.000000001
+  atol: 0.00000000001
+  max_step: 0.01
+  peak_component: M
+  peak_method: downward_crossing_dMdt
+  periods_to_average: 1
+
+periodic_interval:
+  margin_fraction: 0.005
+  margin_absolute: 0.00001
+
+figure4:
+  description: Fixed-K_d slices used to plot period input-output functions.
+  slices:
+    - panel: 4a
+      K_d: 0.00010
+      n_A: 200
+      notes: Two left IPH points visible.
+    - panel: 4b
+      K_d: 0.00015
+      n_A: 200
+      notes: Two left IPH points closer together.
+    - panel: 4c
+      K_d: 0.000165
+      n_A: 200
+      notes: Near coalescence and chair-like behavior.
+    - panel: 4d
+      K_d: 0.00020
+      n_A: 200
+      notes: Two left IPH points have disappeared.
+
+iph_scan:
+  description: Uniform fixed-K_d scan used to generate iph_points_all.csv and iph_curves.csv.
+  K_d_first: 0.000001
+  K_d_last: 0.000266
+  K_d_step: 0.000005
+  K_d_count: 54
+  n_A: 200
+
+branch_assignment:
+  method: nearest_neighbor_in_A
+  max_A_jump: 0.01
