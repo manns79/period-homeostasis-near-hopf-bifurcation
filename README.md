@@ -1,13 +1,12 @@
 # Data and Code for *Period Homeostasis Near Hopf Bifurcation*
 
-This repository contains the Python code and data supporting
-Figures 1–4 in the manuscript *Period Homeostasis Near Hopf Bifurcation* by
+This repository contains the Python code and data supporting the manuscript *Period Homeostasis Near Hopf Bifurcation* by
 Steve Manns, Janet Best, and Martin Golubitsky.
 
 The simulations use the dimensionless Kim–Forger single-negative-feedback
 (SNF) model of the mammalian circadian clock. For a fixed value of the bifurcation parameter 
 `K_d`, the code determines the interval of values of the input parameter `A` in which
-a periodic solution is expected, integrates the model, estimates the period
+a periodic solution exists, integrates the model, estimates the period
 from successive maxima of `M(t)`, and locates critical points of the period
 input-output function. These critical points are infinitesimal period
 homeostasis (IPH) points.
