@@ -100,5 +100,7 @@ Please cite the associated manuscript:
 > Steve Manns, Janet Best, and Martin Golubitsky, *Period Homeostasis Near Hopf
 > Bifurcation*, manuscript in preparation.
 
-A version-specific archival DOI for this repository will be added here after
-the public release is deposited.
+Release `v0.1.0` is archived on Zenodo under DOI
+[`10.5281/zenodo.21613690`](https://doi.org/10.5281/zenodo.21613690). The DOI
+for all versions is
+[`10.5281/zenodo.21613689`](https://doi.org/10.5281/zenodo.21613689).

@@ -3,6 +3,7 @@ message: "If you use this software, please cite the associated paper as below."
 title: "Period Homeostasis Near Hopf Bifurcation"
 type: software
 version: 0.1.0
+doi: "10.5281/zenodo.21613690"
 repository-code: "https://github.com/manns79/period-homeostasis-near-hopf-bifurcation"
 authors:
   - family-names: Manns
