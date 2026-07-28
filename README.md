@@ -36,7 +36,7 @@ jupyter lab
 | --- | --- | --- |
 | Figure 1 | `figure1_normal_form.ipynb` | `figure1a.png`, `figure1b.png` |
 | Figure 2 | `figure2_parameter_space.ipynb` | `figure2_parameter_space.png` |
-| Figure 3 | `figure3_hh_graphs.ipynb` | `figure3a.png`, `figure3b.png` |
+| Figure 3 | `figure3_hh_graphs.ipynb` | `figure3.png` |
 | Figure 4 | `figure4_period_input_output.ipynb` | `figure4a.png`–`figure4d.png` |
 
 Generated figures are written to `outputs/`.
